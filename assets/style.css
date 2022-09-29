@@ -86,11 +86,7 @@ nav {
     display: flex;
 }
 
-header h1 {
-    align-items: center;
-    display: flex;
-    margin-left: 2vw;
-}
+
 
 header h1 {
     font-family: 'Raleway', sans-serif;
@@ -98,13 +94,24 @@ header h1 {
     font-weight: 700;
     font-size: 4vh;
     color: #E5E9F0;
-    
+    align-items: center;
+    display: flex;
+    margin-left: 2vw;
+    width: 50%;
 } 
+
+nav {
+    width: 50%;
+}
 
 nav ul {
     flex-direction: row;
     display: flex;
-
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-right: 2vw;
 }
 
 nav li a {
@@ -136,6 +143,19 @@ nav li a {
 
 #typeAnm h1 {
     margin-bottom: 6vh;
+}
+
+#landImage {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#landImage img {
+    display: flex;
+    width: 50%;
+    border-radius: 50%;
 }
 
 /*PseudoClasses*/
