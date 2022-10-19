@@ -1,57 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="images/40web-development_102111.ico" type="image/icon type">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Meu Portfólio</title>
-    <link rel="stylesheet" href="assets/style.css">
+        <title>Meu Portfólio</title>
+        <link rel="icon" href="images/book.png">
+        <link rel="stylesheet" href="assets/style.css">
+    </head>
 
-    <!--Google Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Raleway:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
-
-    <!--Caracteres Especiais-->
-    <meta charset="utf-8"/>
-
-</head>
-<body>
-        <header>
-            <h1>Meu portfólio</h1>
-            <nav>
-                <ul>
-                    <li><a href="left-sidebar.html">Sobre</a></li>
-                    <li><a href="right-sidebar.html">Stack</a></li>
-                    <li><a href="no-sidebar.html">Projetos</a></li>
-                    <li><a href="no-sidebar.html">Contato</a></li>
-                </ul>
-            </nav>
-        </header>
-
-    <div id="landingPage">
-        <div id="typeAnm">
-            <h1>Olá, me chamo Iohan Trézze</h1>
-            <h2>Sou um Desenvolvedor Fullstack e crio <br><div id="typed-strings">
-                <span>SISTEMAS</span><span>SOLUÇÕES</span><span>RESULTADOS</span>
-              </div>
-              <span id="typed"></span></h2>
+    <body>
+        <div class="header">
+            <!--Conteúdo antes das animações-->
+            <div class="inner-header flex">
+                <h1>SEJA BEM VINDO/A</h1>
             </div>
-            
-        <div id="landImage">
-            <img src="images/1664458399334sq.jpg" alt="Minha foto">
+
+            <!-- Container das ondas-->
+
+            <div>
+                <svg class="waves"
+                viewBox="0 24 150 28"
+                preserveAspectRatio="none"
+                shape-rendering="auto">
+                <defs>
+                    <path
+                    id="gentle-wave"
+                    d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+                    />
+                </defs>
+
+                <g class="parallax">
+                    <use
+                    xlink:href="#gentle-wave"
+                    x="48"
+                    y="0"
+                    fill="rgba(255,255,255,0.7)"
+                    />
+                    <use
+                    xlink:href="#gentle-wave"
+                    x="48"
+                    y="2"
+                    fill="rgba(255,255,255,0.5)"
+                    />
+                    <use
+                    xlink:href="#gentle-wave"
+                    x="48"
+                    y="5"
+                    fill="rgba(255,255,255,0.3)"
+                    />
+                    <use
+                    xlink:href="#gentle-wave"
+                    x="48"
+                    y="7"
+                    fill="#fff"
+                    />
+                </g>
+
+                </svg>
+            </div>
+
         </div>
 
-    <main>
-        <section class="content">
-
-        </section>
-    </main>
-        
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="assets/landingAnimation.js"></script>
-</body>
+        <!--Conteúdo dentro das ondas-->
+        <div class="content flex">
+            <p>Me conheça melhor</p>
+        </div>
+    </body>
 </html>
