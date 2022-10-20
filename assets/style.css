@@ -3,14 +3,18 @@ body{
 }
 
 h1 {
-    font-family: "Lato", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300px;
     letter-spacing: 2px;
-    font-size: 48px;
+    font-size: 50px;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
 }
 
 p{
-    font-family: "Lato", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: 1px;
     font-size: 14px;
     color: #333333;
@@ -40,6 +44,7 @@ p{
     justify-content: center;
     align-items: center;
     text-align: center;
+    flex-direction: column;
 }
 
 .waves{
@@ -54,6 +59,7 @@ p{
     height: 20vh;
     text-align: center;
     background-color: white;
+    margin-bottom: 20vh;
 }
 
 /*Animação das ondas*/
@@ -90,6 +96,68 @@ p{
     }
 }
 
+/*Estilização do conteúdo principal*/
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.contentbox{
+    display: flex;
+    height: 60vh;
+    width: 90vw;
+    padding: 2vw;
+    margin-bottom: 20vh;
+
+    background-color: #3D5BBA;
+    color: white;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+    border-radius: 12px;
+    
+    box-shadow: 0px 15px 25px -10px 
+    rgba(0, 0, 0, 0.5);
+    
+}
+
+.contentbox p{
+    color: white;
+}
+
+
+.clipart {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+}
+
+.clipart img {
+    width: 10vw;
+    border-radius: 50%;
+    background-color: #e4eef0f6;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+/*Animações do conteúdo principal*/
+.clipart img:hover{
+    
+}
+
 
 /*Responsividade para mobile*/
 @media(max-width: 768px){
@@ -102,5 +170,8 @@ p{
     }
     h1 {
         font-size: 24px;
+    }
+    h2{
+        font-size: 15px;
     }
 }
