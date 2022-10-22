@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -155,7 +156,7 @@ main {
     max-width: 50%;
 }
 
-.text p{
+.text p {
     max-width: 50rem;
     text-align: justify;
 }
@@ -165,8 +166,39 @@ section:nth-child(even){
 }
 
 /*Animações do conteúdo principal*/
+.hidden {
+    opacity: 0;
+    transition: all 1.5s;
+    filter: blur(1px);
+    transform: translateX(-100%);
+}
+
+.hidden:nth-child(even){
+    opacity: 0;
+    transition: all 1.5s;
+    filter: blur(1px);
+    transform: translateX(100%);
+}
+
+.show:nth-child(even) {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
 
 
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+/*Para aqueles que preferem sem animações*/
+@media(prefers-reduced-motion){
+    .hidden{
+        transition: none;
+    }
+}
 
 /*Responsividade para mobile*/
 @media(max-width: 768px){
