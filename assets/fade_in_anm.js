@@ -1,3 +1,4 @@
+//Responsável por analisar quando os elementos estarão ao "alcance" da tela
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry)=> {
 

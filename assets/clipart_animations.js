@@ -1,4 +1,4 @@
-//Criando todas as variáveis com referência aos elementos do DOM
+//Responsável por mudar a foto do bonequinho uando passamos o mouse nele
 
 let worker = document.querySelector('#worker');
 
