@@ -1,5 +1,5 @@
 ToDos:
 
-1: Fix the problem with the sv files
+1: Fix the problem with the svg files - DONE
 2: Make te javascript implementantion of the carousels
 3: Watch videos of Portfolio Reviews to add/adapt some infos

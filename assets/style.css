@@ -226,7 +226,7 @@ section:nth-child(even){
     list-style: none;
 }
 
-.carousel_slide {
+.carousel__slide {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -251,7 +251,8 @@ section:nth-child(even){
 }
 
 .carousel__button img {
-    width: 12px;
+    width: 20px;
+    height:20px;
 }
 
 .carous__nav {
