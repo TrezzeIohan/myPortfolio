@@ -110,8 +110,8 @@ main {
 
 .contentbox{
     display: flex;
-    height: 90vh;
-    width: 90vw;
+    height: 70vh;
+    width: 70vw;
     padding: 2vw;
     margin-bottom: 20vh;
 
@@ -131,6 +131,7 @@ main {
 
 .contentbox p{
     color: white;
+    font-size: medium;
 }
 
 
@@ -159,6 +160,15 @@ main {
 .text p {
     max-width: 50rem;
     text-align: justify;
+}
+
+#about-me {
+    max-height: 80%;
+}
+
+#projects {
+    flex-direction: column;
+    padding: 5vh 2vw;
 }
 
 section:nth-child(even){
@@ -193,6 +203,8 @@ section:nth-child(even){
     transform: translateX(0);
 }
 
+
+
 /*Para aqueles que preferem sem animações*/
 @media(prefers-reduced-motion){
     .hidden{
@@ -200,11 +212,11 @@ section:nth-child(even){
     }
 }
 
-/*Estilização do carousel*/
+/*Estilização do carrossel*/
 .carousel{
     position: relative;
-    height: 300px;
-    width: 80%;
+    height: 80%;
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -215,7 +227,6 @@ section:nth-child(even){
 }
 
 .carousel__track-container{
-    background: lightgreen;
     height: 100%;
     position: relative;
     overflow: hidden;
@@ -259,8 +270,7 @@ section:nth-child(even){
     height:20px;
 }
 
-.carous__nav {
-    background: pink;
+.carousel__nav {
     display: flex;
     justify-content: center;
     padding: 10px 0;
