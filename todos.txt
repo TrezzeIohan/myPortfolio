@@ -2,6 +2,18 @@ ToDos:
 
 1: Fix the problem with the svg files - DONE
 2: Make te javascript implementantion of the carousels- Done
-3: Watch videos of Portfolio Reviews to add/adapt some infos
+3: Watch videos of Portfolio Reviews to add/adapt some infos - Done
+
+4: Make a footer with a text like: "Created by Iohan Trézze © 
+2022 (see delo.dev and make something alike)
+
+6: Fix the CSS of the page for PC view
+    - Fix all the h2s so they ca be centered relatively to the screen
+    - Fix the text of the contents, so they can fit only in the space they are given
+    - Make some smooth transitions for part of the conent (see delo.dev and make something alike)
+    - Stylize the contact part and put some icons linking to Github and Linkedin
+    - Make the arrow buttons on the projects area bigger
+    - Give some style for the projects images (see delo.dev and make something alike)
+    
 
 
