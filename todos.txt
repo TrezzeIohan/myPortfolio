@@ -5,10 +5,10 @@ ToDos:
 3: Watch videos of Portfolio Reviews to add/adapt some infos - Done
 
 4: Make a footer with a text like: "Created by Iohan Trézze © 
-2022 (see delo.dev and make something alike)
+2022 (see delo.dev and make something alike) - Done
 
 6: Fix the CSS of the page for PC view
-    - Fix all the h2s so they ca be centered relatively to the screen
+    - Fix all the h2s so they ca be centered relatively to the screen - Done
     - Fix the text of the contents, so they can fit only in the space they are given
     - Make some smooth transitions for part of the conent (see delo.dev and make something alike)
     - Stylize the contact part and put some icons linking to Github and Linkedin
