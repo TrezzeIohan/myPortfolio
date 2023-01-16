@@ -16,9 +16,6 @@ h1 {
     font-size: 50px;
 }
 
-
-
-
 .header{
     position: relative;
     text-align: center;
@@ -119,12 +116,6 @@ main {
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
-    
-    border-radius: 12px;
-    
-    box-shadow: 0px 15px 25px -10px 
-    rgba(0, 0, 0, 0.5);
-    
 }
 
 .contentbox p{
@@ -174,10 +165,6 @@ main {
     max-height: 80%;
 }
 
-#projects {
-    flex-direction: column;
-    padding: 5vh 2vw;
-}
 
 section:nth-child(even){
     flex-direction: row-reverse;
@@ -213,18 +200,23 @@ section:nth-child(even){
 
 
 
-/*Para aqueles que preferem sem animações*/
-@media(prefers-reduced-motion){
-    .hidden{
-        transition: none;
-    }
+/*Estilização do carrossel*/
+#projects {
+    flex-direction: column;
+    padding: 0;
+    justify-content: center;
+    height: 120vh;
 }
 
-/*Estilização do carrossel*/
+#projects-h2{
+    padding-bottom: 2%;
+    font-size: larger;
+}
+
 .carousel{
     position: relative;
-    height: 80%;
-    width: 50%;
+    height: 70vh;
+    width: 50vw;
     margin: 0 auto;
 }
 
@@ -266,22 +258,22 @@ section:nth-child(even){
 }
 
 .carousel__button--left{
-    left: -40px;
+    left: -60px;
 }
 
 .carousel__button--right{
-    right: -40px;
+    right: -60px;
 }
 
 .carousel__button img {
-    width: 20px;
-    height:20px;
+    width: 50px;
+    height:50px;
 }
 
 .carousel__nav {
     display: flex;
     justify-content: center;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 .carousel__indicator{
@@ -297,7 +289,6 @@ section:nth-child(even){
 .carousel__indicator.current-slide {
     background: rgba(0,0,0.75);
 }
-
 
 .is-hidden {
     display: none;
@@ -325,7 +316,44 @@ section:nth-child(even){
     margin: 2%;
 }
 
+#form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 70vh;
+}
+
+form{
+    width: 70vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#name-and-email{
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#name-and-email input{
+width: 70%;
+}
+
+textarea{
+    width: 70%;
+    height: 50%;
+    margin-top: 10px;
+}
+
+form>button{
+    margin: 30px 0px;
+}
+
 footer{
+    margin: 30px 0px 10px;
     color: #6b78a3;
 }
 
@@ -347,5 +375,12 @@ footer{
 
     p {
         font-size: 10px;
+    }
+}
+
+/*Para aqueles que preferem sem animações*/
+@media(prefers-reduced-motion){
+    .hidden{
+        transition: none;
     }
 }
