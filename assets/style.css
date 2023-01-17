@@ -16,6 +16,7 @@ h1 {
     font-size: 50px;
 }
 
+
 .header{
     position: relative;
     text-align: center;
@@ -105,7 +106,7 @@ main {
 
 .contentbox{
     display: flex;
-    height: 70vh;
+    height: max-content;
     width: 100vw;
     padding: 2vw;
     margin-bottom: 20vh;
@@ -198,6 +199,13 @@ section:nth-child(even){
     transform: translateX(0);
 }
 
+#skills{
+    height: 30vh;
+}
+
+#skills>h2{
+    margin-bottom: 30px;
+}
 
 
 /*Estilização do carrossel*/
@@ -382,7 +390,7 @@ form>button:hover {
 
 
 footer{
-    margin: 30px 0px 10px;
+    margin: 50px 0px;
     color: #6b78a3;
 }
 
@@ -406,19 +414,58 @@ footer{
         font-size: 10px;
     }
 
+    .text {
+        max-width: none;
+    }
+
+    /* Primeira sessão */
+    section:first-of-type{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #about-me{
+        width: 70vw;
+    }
+
+
+   
+    /* Sessão das skills */
+    .skill-icons {
+        max-width: 12%;
+        margin: 2%;
+    }
+
+    /* Sessão dos Projetos */
+
+    #projects-h2 {
+        margin-bottom: 3vh;
+    }
+    
+    #projects-h2>h2{
+        font-size: 25px;
+        margin-bottom: 1vh;
+    }
+
+    #projects {
+        height: 50vh;
+        justify-content: flex-start;
+    }
+
+    .carousel {
+        width: 30vh;
+        height: 30vh;
+    }
+
+    /* Última sessão */
     form>button {
         height: 10vw;
         width: 15vw;
         padding: 0;
-    } 
+    }
     
     textarea{
         height: 30vh;
-    }
-
-    .skill-icons {
-        max-width: 12%;
-        margin: 2%;
     }
 
 }
