@@ -1,4 +1,0 @@
-logo = <a href="https://www.flaticon.com/free-icons/education" title="education icons">Education icons created by Freepik - Flaticon</a>
-worker1 and worker2 = <a href="https://www.flaticon.com/free-stickers/work" title="work stickers">Work stickers created by paulalee - Flaticon</a>
-
-forward icon=> <a target="_blank" href="https://icons8.com/icon/61/forward">Forward</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
