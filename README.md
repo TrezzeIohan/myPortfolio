@@ -20,7 +20,7 @@
 ### Construído com
 - HTML 
 - CSS
-- JAVASCRIPT
+- Javascript
 
 <!-- TODO: List any MAJOR libraries/frameworks (e.g. React, Tailwind) with links to their homepages. -->
 
