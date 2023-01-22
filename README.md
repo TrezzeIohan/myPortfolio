@@ -5,7 +5,7 @@
 - [Visão Geral](#Overview)
 - [Construído com](#built-with)
 - [Features](#features)
-- [Contact](#contact)
+- [Contato](#contato)
 - [Acknowledgements](#acknowledgements)
 
 ## Overview
