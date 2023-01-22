@@ -2,13 +2,13 @@
 
 ## Tabela de Conteúdo
 
-- [Visão Geral](#Visão Geral)
+- [Visão Geral](#Overview)
 - [Built With](#built-with)
 - [Features](#features)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
 
-## Visão Geral
+## Overview
 
 <!-- TODO: Add a screenshot of the live project.
     1. Link to a 'live demo.'
