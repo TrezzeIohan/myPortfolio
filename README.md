@@ -3,7 +3,7 @@
 ## Tabela de Conteúdo
 
 - [Visão Geral](#Overview)
-- [Construído com](#construido)
+- [Tecnologias](#tecnologias)
 - [Features](#features)
 - [Contato](#contato)
 - [Acknowledgements](#acknowledgements)
@@ -17,7 +17,7 @@
     4. Share any other tips or guidance for others attempting this or something similar.
  -->
 
-### Construído com
+### Tecnologias
 - HTML 
 - CSS
 - Javascript
