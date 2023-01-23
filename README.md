@@ -6,7 +6,6 @@
 - [Tecnologias](#tecnologias)
 - [Features](#features)
 - [Contato](#contato)
-- 
 
 ## Apresentação
 Live Link: https://trezzeiohan.github.io/myPortfolio/
@@ -30,4 +29,3 @@ tem por objetivo reunir e apresentar de maneira acessível os cursos e projetos 
 ## Contato
 
 <!-- TODO: Include icons and links to your RELEVANT, PROFESSIONAL 'DEV-ORIENTED' social media. LinkedIn and dev.to are minimum. -->
-
