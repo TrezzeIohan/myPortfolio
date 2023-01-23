@@ -28,4 +28,5 @@ tem por objetivo reunir e apresentar de maneira acessível os cursos e projetos 
 
 ## Contato
 
+iohan.trezze@gmail.com
 <!-- TODO: Include icons and links to your RELEVANT, PROFESSIONAL 'DEV-ORIENTED' social media. LinkedIn and dev.to are minimum. -->
