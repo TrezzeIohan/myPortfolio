@@ -112,7 +112,7 @@ main {
 .contentbox{
     display: flex;
     height: max-content;
-    min-height: 70vh;
+    min-height: 100vh;
     width: 100vw;
     padding: 2vw;
     margin-bottom: 20vh;
