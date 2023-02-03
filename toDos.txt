@@ -1,6 +1,0 @@
-Adicionar
-Fazer os cards terem uma animação ao aparecerem na tela
-FAzer eles crescerem quando o mouse passar por cima deles
-FAzer com que ao clicar em um dos cards, a pessoa seja redirecionada para a páina do projeto/curso
-
-Mudar as fotos e descrições dos cards
