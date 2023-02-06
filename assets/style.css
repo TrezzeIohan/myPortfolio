@@ -392,6 +392,9 @@ footer{
         font-size: 12px;
     }
 
+    .photo img {
+        width: 30vw;
+    }
     
     .content{
         margin-bottom: 10vh;
