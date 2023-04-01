@@ -1,3 +1,3 @@
 # myPortfolio
 
-<p> Site criado usando HTML, CSS e Javascript para compilar meus cursos, projetos profissionais e pessoais. </p>
+<p> Site criado usando HTML, CSS e Javascript para compilar meus cursos, trabalhos profissionais e projetos pessoais. </p>
